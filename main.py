@@ -3,6 +3,7 @@ from fastapi.templating import Jinja2Templates
 from fastapi import Request
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+import uvicorn
 
 from fastapi import FastAPI
 from fastapi.staticfiles import StaticFiles
